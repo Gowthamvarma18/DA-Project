@@ -2,7 +2,15 @@
 
 
 
+\---
+
+
+
 \## Project Overview
+
+
+
+\---
 
 
 
@@ -14,11 +22,21 @@ The Student Examination \& Evaluation System is a modular, menu-driven Python co
 
 
 
+\---
+
+
+
 \- \*\*Secure Access:\*\* Automated unique Student ID generation with a secure login system.
+
+
 
 \- \*\*Dynamic Question Bank:\*\* Subject-specific exam generation covering Python, Aptitude, and Object-Oriented Programming (OOP).
 
+
+
 \- \*\*Automated Evaluation Logic:\*\* Instant grading system that validates answers, calculates percentages, and safely handles edge cases like unanswered questions without crashing.
+
+
 
 \- \*\*Result Management:\*\* Automatically generates detailed performance summaries and permanently logs them to local text files.
 
@@ -28,13 +46,25 @@ The Student Examination \& Evaluation System is a modular, menu-driven Python co
 
 
 
+\---
+
+
+
 \- \*\*Language:\*\* Python
+
+
 
 \- \*\*Core Paradigms:\*\* Object-Oriented Programming (OOP), Modular Functions
 
+
+
 \- \*\*Data Structures:\*\* Lists, Dictionaries
 
+
+
 \- \*\*Error Management:\*\* Exception Handling (`try-except`)
+
+
 
 \- \*\*Storage:\*\* Python Native TXT File Handling
 
@@ -44,13 +74,19 @@ The Student Examination \& Evaluation System is a modular, menu-driven Python co
 
 
 
-This project does not rely on external APIs or third-party relational databases like SQL or MongoDB. Instead, it uses local text files to store and manage data.
+\---
 
 
 
-\- \*\*student.txt:\*\* Stores student details and login information.
+This project does not rely on external APIs or third-party relational databases like SQL or MongoDB. Instead, it uses local text files to simulate database operations.
 
-\- \*\*results.txt:\*\* Stores exam performance records and grading summaries.
+
+
+\- \*\*student.txt:\*\* User credentials and student details are written to and retrieved from this file.
+
+
+
+\- \*\*results.txt:\*\* Exam performance records and grading summaries are stored in this file.
 
 
 
@@ -58,11 +94,15 @@ This project does not rely on external APIs or third-party relational databases 
 
 
 
-\### Bolledla Shashank — Team Leader
+\---
 
 
 
-\*\*Lead Developer \& Logic Architect\*\*
+\### Bolledla Shashank
+
+
+
+\*\*Team Leader \& Lead Developer / Logic Architect\*\*
 
 
 
@@ -76,11 +116,11 @@ This project does not rely on external APIs or third-party relational databases 
 
 
 
-\### Gowtham Varma — Team Member
+\### Gowtham Varma
 
 
 
-\*\*Student Management Developer\*\*
+\*\*Team Member / Student Management Developer\*\*
 
 
 
@@ -88,27 +128,27 @@ This project does not rely on external APIs or third-party relational databases 
 
 \- Built the registration and login systems.
 
-\- Implemented automatic Student ID generation.
+\- Handled automatic Student ID generation.
 
-\- Worked on the main project workflow.
-
-
-
-\### Raja Sekhar Dummari — Team Member
+\- Structured the main project workflow.
 
 
 
-\*\*File Handling \& Testing Developer \& QA\*\*
+\### Raja Sekhar Dummari
+
+
+
+\*\*Team Member / File Handling \& Testing Developer \& QA\*\*
 
 
 
 \- Implemented TXT file handling for saving student data and results.
 
-\- Managed `try-except` blocks for system stability.
+\- Managed the `try-except` blocks for system stability.
 
-\- Tested the project and fixed errors.
+\- Conducted final code testing.
 
-\- Helped with the overall stability of the application.
+\- Helped identify and fix errors in the project.
 
 
 
@@ -116,5 +156,9 @@ This project does not rely on external APIs or third-party relational databases 
 
 
 
-The goal of this project is to create a simple examination system using Python while gaining practical experience with OOP, file handling, exception handling, data structures, and modular programming.
+\---
+
+
+
+The goal of this project is to create a simple examination system using Python while gaining practical experience with Object-Oriented Programming, file handling, exception handling, data structures, and modular programming.
 
