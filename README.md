@@ -1,8 +1,4 @@
-\# Online Examination Management System:
-
-
-
-\---
+\# Online Examination Management System
 
 
 
@@ -10,19 +6,19 @@
 
 
 
+The Student Examination \& Evaluation System is a modular, menu-driven Python console program. It is designed to seamlessly automate the entire examination workflow, from student registration and authentication to test-taking and automated grading.
+
+
+
+This system eliminates manual evaluation efforts and provides accurate, instantly calculated results.
+
+
+
 \---
-
-
-
-The Student Examination \& Evaluation System is a modular, menu-driven Python console program. It is designed to seamlessly automate the entire examination workflow, from student registration and authentication to test-taking and automated grading. This system eliminates manual evaluation efforts and provides accurate, instantly calculated results.
 
 
 
 \## Features
-
-
-
-\---
 
 
 
@@ -42,31 +38,27 @@ The Student Examination \& Evaluation System is a modular, menu-driven Python co
 
 
 
-\## Tech Stack
-
-
-
 \---
+
+
+
+\## Tech Stack
 
 
 
 \- \*\*Language:\*\* Python
 
-
-
 \- \*\*Core Paradigms:\*\* Object-Oriented Programming (OOP), Modular Functions
-
-
 
 \- \*\*Data Structures:\*\* Lists, Dictionaries
 
-
-
 \- \*\*Error Management:\*\* Exception Handling (`try-except`)
 
-
-
 \- \*\*Storage:\*\* Python Native TXT File Handling
+
+
+
+\---
 
 
 
@@ -74,19 +66,23 @@ The Student Examination \& Evaluation System is a modular, menu-driven Python co
 
 
 
+This project does not rely on external APIs or third-party relational databases like SQL or MongoDB.
+
+
+
+Instead, it utilizes local text file handling to store and retrieve the required information.
+
+
+
+\- \*\*student.txt:\*\* Stores student credentials and details.
+
+
+
+\- \*\*results.txt:\*\* Stores exam performance records and grading summaries.
+
+
+
 \---
-
-
-
-This project does not rely on external APIs or third-party relational databases like SQL or MongoDB. Instead, it uses local text files to simulate database operations.
-
-
-
-\- \*\*student.txt:\*\* User credentials and student details are written to and retrieved from this file.
-
-
-
-\- \*\*results.txt:\*\* Exam performance records and grading summaries are stored in this file.
 
 
 
@@ -94,15 +90,11 @@ This project does not rely on external APIs or third-party relational databases 
 
 
 
-\---
-
-
-
 \### Bolledla Shashank
 
 
 
-\*\*Team Leader \& Lead Developer / Logic Architect\*\*
+\*\*Team Leader \& Lead Developer — Logic Architect\*\*
 
 
 
@@ -120,7 +112,7 @@ This project does not rely on external APIs or third-party relational databases 
 
 
 
-\*\*Team Member / Student Management Developer\*\*
+\*\*Student Management Developer\*\*
 
 
 
@@ -128,7 +120,7 @@ This project does not rely on external APIs or third-party relational databases 
 
 \- Built the registration and login systems.
 
-\- Handled automatic Student ID generation.
+\- Implemented automatic Student ID generation.
 
 \- Structured the main project workflow.
 
@@ -138,7 +130,7 @@ This project does not rely on external APIs or third-party relational databases 
 
 
 
-\*\*Team Member / File Handling \& Testing Developer \& QA\*\*
+\*\*File Handling \& Testing Developer — QA\*\*
 
 
 
@@ -152,11 +144,11 @@ This project does not rely on external APIs or third-party relational databases 
 
 
 
-\## Project Goal
-
-
-
 \---
+
+
+
+\## Project Goal
 
 
 
