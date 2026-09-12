@@ -1,114 +1,144 @@
-\# Student Examination \& Evaluation System
+Student Examination \& Evaluation System
 
 
 
-\## Project Overview
+Project Overview
 
 
 
-The \*\*Student Examination \& Evaluation System\*\* is a modular, menu-driven Python console program. It is designed to seamlessly automate the entire examination workflow, from student registration and authentication to test-taking and automated grading.
+This project is a Python-based Student Examination and Evaluation System. It is a menu-driven console application that manages students, conducts exams, checks answers, and calculates the final results.
 
 
 
-This system eliminates manual evaluation efforts and provides accurate, instantly calculated results.
+The main purpose of this project is to make the examination process easier by handling registration, login, exam questions, evaluation, and result generation automatically.
 
 
 
-\## Features
 
 
+Features
 
-\- \*\*Secure Access:\*\* Automated unique Student ID generation with a secure login system.
 
-\- \*\*Dynamic Question Bank:\*\* Subject-specific exam generation covering Python, Aptitude, and Object-Oriented Programming (OOP).
 
-\- \*\*Automated Evaluation Logic:\*\* Instant grading system that validates answers, calculates percentages, and safely handles edge cases like unanswered questions without crashing.
+\- Student registration with automatic Student ID generation
 
-\- \*\*Result Management:\*\* Automatically generates detailed performance summaries and permanently logs them to local text files.
+\- Student login and authentication
 
+\- Questions based on Python, Aptitude, and OOP
 
+\- Automatic checking of answers
 
-\## Tech Stack
+\- Automatic calculation of marks and percentage
 
+\- Handles unanswered questions without crashing
 
+\- Generates and stores exam results
 
-\- \*\*Language:\*\* Python
+\- Stores student and result information in text files
 
-\- \*\*Core Paradigms:\*\* Object-Oriented Programming (OOP), Modular Functions
 
-\- \*\*Data Structures:\*\* Lists, Dictionaries
 
-\- \*\*Error Management:\*\* Exception Handling (`try-except`)
 
-\- \*\*Storage:\*\* Python Native TXT File Handling
 
+Tech Stack
 
 
-\## API or Database Notes
 
+\- Python
 
+\- Object-Oriented Programming (OOP)
 
-This project does not rely on external APIs or third-party relational databases (like SQL or MongoDB). Instead, it utilizes local text file handling to simulate database operations.
+\- Functions and Modular Programming
 
+\- Lists and Dictionaries
 
+\- Exception Handling
 
-\- User credentials and details are written to and retrieved from `student.txt`.
+\- TXT File Handling
 
-\- Exam performance records and grading summaries are persistently stored in `results.txt`.
 
 
 
-\## Team Member Contributions
 
+File Storage
 
 
-\### Bolledla Shashank — Team Leader
 
+We did not use an external database or API for this project.
 
 
-\*\*Lead Developer \& Logic Architect\*\*
 
+Instead, we used text files to store the required information.
 
 
-\- Designed the core evaluation logic.
 
-\- Programmed the automatic answer validation rules.
+\- student.txt - stores student details and login information
 
-\- Managed edge cases.
+\- results.txt - stores exam results and performance details
 
-\- Handled score and percentage calculations.
 
 
+This helped us understand how data can be stored and retrieved using Python file handling.
 
-\### Gowtham Varma — Team Member
 
 
 
-\*\*Student Management Developer\*\*
 
+Team Members
 
 
-\- Developed the student module.
 
-\- Built the registration and login systems.
+Bolledla Shashank - Team Leader \& Lead Developer
 
-\- Handled automatic Student ID generation.
 
-\- Structured the main project workflow.
 
+\- Worked on the main evaluation logic
 
+\- Developed the answer checking system
 
-\### Raja Sekhar Dummari — Team Member
+\- Handled score and percentage calculations
 
+\- Worked on different cases and errors in the exam system
 
 
-\*\*File Handling \& Testing Developer \& QA\*\*
 
 
 
-\- Implemented TXT file handling for saving student data and results.
+Gowtham Varma - Student Management Developer
 
-\- Managed the `try-except` blocks for system stability.
 
-\- Conducted final code testing.
+
+\- Developed the student management part
+
+\- Worked on registration and login
+
+\- Implemented automatic Student ID generation
+
+\- Worked on the main project flow
+
+
+
+
+
+Raja Sekhar Dummari - File Handling \& Testing Developer
+
+
+
+\- Worked on saving student and result data into TXT files
+
+\- Handled exception handling using try-except
+
+\- Tested the project and fixed errors
+
+\- Helped with the overall stability of the application
+
+
+
+
+
+Project Goal
+
+
+
+The goal of this project is to create a simple examination system using Python while getting practical experience with OOP, file handling, exception handling, data structures, and modular programming.
 
